@@ -263,3 +263,10 @@ git remote -v
 원격 저장소에 지금까지의 commit 들 PUSH하기
 
 git push origin master
+
+U: untracked: 초면입니당
+
+README: 해당 문서 (프로젝트)의 대문, 중요한 설명
+.gitignore 중요한 정보인데 github에 올리면 안되는 파일
+
+이렇게 변경했어요
