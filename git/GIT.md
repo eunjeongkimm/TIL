@@ -207,3 +207,59 @@ author -> 찍은 사람
 3. 즉, $ git init 입력 전 확인할 점
    1. ~ 인지
    2. (master) 떠 있는지
+
+
+
+<강사님 복습> - 1203
+
+폴더로 이동
+
+cd new_project
+
+
+
+폴더 리포로 초기화
+
+git init
+
+
+
+README 파일 생성
+
+touch README.md
+
+
+
+README 파일 add(trackiing)
+
+git add README.md
+
+
+
+계정당 1회 이름, 메일 등록
+
+git config --global user.name '내이름'
+
+
+
+
+
+git commit -m 'first message'
+
+
+
+github에 원격 저장소 생성하기
+
+원격 저장소 등록하기
+
+git remote add origin <URL>
+
+원격 저장소 확인하기
+
+git remote -v
+
+
+
+원격 저장소에 지금까지의 commit 들 PUSH하기
+
+git push origin master
